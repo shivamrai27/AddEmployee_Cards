@@ -10,6 +10,8 @@ const ProfileCard = () => {
     return (
         <Container>
             <div className='ProfileCard'>
+                <svg className="pink" xmlns="http://www.w3.org/2000/svg" viewBox="40 0 1440 320"><path fill="#d194d1" fill-opacity="1" d="M0,128L1440,288L1440,0L0,0Z"></path>
+                </svg>
                 <div>
                     <img src={"./public/images/3.jpg"} />
                 </div>
@@ -22,7 +24,11 @@ const ProfileCard = () => {
                     <FiTwitter className='icon' />
                     <FiInstagram className='icon' />
                 </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6573d0" fill-opacity="1" d="M0,128L1440,288L1440,320L0,320Z"></path></svg>
+                </div>
             </div>
+
         </Container>
     )
 }
@@ -37,6 +43,13 @@ const Container = styled.div`
     gap: 9px;
     
     
+    .pink{
+        position: absolute;
+        margin-left: -150px;
+        overflow: hidden;
+        background-size: cover;
+        /* display: block; */
+    }
     .ProfileCard{
      border-radius: 10px;
      width: 300px;
@@ -51,6 +64,7 @@ const Container = styled.div`
         justify-content: center;
         margin: auto;
         margin-top: 10px;
+        position: relative;
     }
     .location{
         display: flex;
