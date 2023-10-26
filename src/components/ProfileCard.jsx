@@ -32,7 +32,6 @@ const ProfileCard = () => {
         </Container>
     )
 }
-
 export default ProfileCard
 
 const Container = styled.div`
