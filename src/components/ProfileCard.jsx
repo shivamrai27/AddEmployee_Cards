@@ -26,7 +26,7 @@ const ProfileCard = () => {
                     <FiInstagram className='icon' />
                 </div>
                 <div>
-                    <svg className='blue' xmlns="http://www.w3.org/2000/svg" width={"300px"} viewBox="40 00 600 320"><path fill="#6573d0" fillOpacity="1" d="M0,128L1440,288L1440,320L0,320Z"></path></svg>
+                    <svg className='blue' xmlns="http://www.w3.org/2000/svg"       width={"300px"} viewBox="40 00 600 320"><path fill="#6573d0" fillOpacity="1" d="M0,128L1440,288L1440,320L0,320Z"></path></svg>
                 </div>
             </div>
 
