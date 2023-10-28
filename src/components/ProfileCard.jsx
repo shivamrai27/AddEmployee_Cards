@@ -6,7 +6,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 import { FiTwitter } from 'react-icons/Fi';
 import { FiInstagram } from 'react-icons/Fi';
 
-const ProfileCard = () => {
+const ProfileCard = () => { 
     return (
         <Container>
             <div className='ProfileCard'>
